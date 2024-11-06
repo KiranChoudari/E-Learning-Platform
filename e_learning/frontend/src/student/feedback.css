@@ -1,0 +1,117 @@
+/* Container styling for Feedback section */
+html,body{
+    display: flex;              /* Enable flexbox */
+  flex-direction: column;     /* Align items vertically */
+  justify-content: center;    /* Vertically center the content */
+  align-items: center;        /* Horizontally center the content */
+  height: 100vh;              /* Ensure the container takes full viewport height */
+  padding: 20px;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  /* Heading styles */
+  h2 {
+    color: #333;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  #Feedback .form-control {
+    font-size: 1em;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;        /* Center form elements horizontally */
+    width: 100%;
+    max-width: 500px; 
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #Feedback textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  /* Submit button styling */
+  .btn-primary {
+    background-color: #ff0022;
+    border-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  /* Second column styling (Contact Info) */
+  .stripe {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .stripe h4 {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .stripe p {
+    color: #f8f9fa;
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  /* Margin and padding adjustments for the overall layout */
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .form-control {
+      font-size: 1.2em;
+    }
+  
+    h2 {
+      font-size: 1.8em;
+    }
+  
+    .btn-primary {
+      padding: 8px 16px;
+      font-size: 1.1em;
+    }
+  
+    .stripe {
+      padding: 15px;
+    }
+  }
+  
